@@ -5,4 +5,9 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
 };
 
+module.exports = {
+  output: 'export',
+  basePath: 'https://github.com/Lydiawaka/metal.git', 
+};
+
 export default nextConfig;
